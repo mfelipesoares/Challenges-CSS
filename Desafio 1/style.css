@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--body-bg);
+    color: var(--body-color);
+    text-align: left;
+}
+:root{
+    --body-bg:white;
+    --body-color: black;
+    --fundo-color: red;
+    --c-color: white;
+    --w-color:white;
+    --r-color:white;
+    --e-color: white;
+    --l-color:red;
+    --k-color:red;
+    --h-color:red;
+}
+.dark-mode:root{
+    --body-bg:black;
+    --body-color: white;
+    --fundo-color: white;
+    --c-color: black;
+    --w-color:black;
+    --r-color:black;
+    --e-color: black;
+    --l-color:white;
+    --k-color:white;
+    --h-color:white;
+}
+#text{
+    margin:20px;
+}
+#fundo{
+    position: static;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 280px;
+    width: 450px;
+    background: var(--fundo-color);
+    border-radius: 50px;
+}
+#c {
+    position: absolute;
+    height: 175px;
+    width: 30px;
+    background: var(--c-color);
+    left: 20.5%;
+    top: 155px;
+    border-radius: 10px;
+}
+#w{
+    position: absolute;
+    top: 218px;
+    left: 22.9%;
+    height: 118px;
+    width: 50px;
+    background: var(--w-color);
+    transform: rotate(53deg);
+    border-radius: 10px;
+}
+#r{
+    position: absolute;
+    top: 155px;
+    left: 22.99%;
+    height: 135px;
+    width: 50px;
+    background: var(--r-color);
+    transform: rotate(-40deg);
+    border-radius: 10px;
+}
+#e {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: var(--e-color);
+    left: 22%;
+    top: 220px;
+}
+#l {
+    position: absolute;
+    height: 175px;
+    width: 30px;
+    background: var(--l-color);
+    left: 18.99%;
+    top: 155px;
+}
+#k {
+    position: absolute;
+    height: 175px;
+    width: 30px;
+    background: var(--k-color);
+    left: 24%;
+    top: 110px;
+    transform: rotate(-40deg);
+}
+#h {
+    position: absolute;
+    height: 175px;
+    width: 30px;
+    background: var(--h-color);
+    left: 24%;
+    top: 210px;
+    transform: rotate(50deg);
+}
+
